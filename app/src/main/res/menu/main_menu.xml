@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="Настройки">
+        <menu>
+            <group android:checkableBehavior="single">
+         <item
+            android:id="@+id/action_settings_admin"
+            android:title="Админ"
+            android:orderInCategory="1">
+        </item>
+
+            <item
+                android:id="@+id/action_settings_user"
+                android:title="Юзер"
+                android:orderInCategory="2">
+
+            </item>
+            </group>
+
+
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/save_settings"
+        android:orderInCategory="3"
+        android:title="Сохранить" />
+    <item
+        android:id="@+id/open_settings"
+        android:orderInCategory="2"
+        android:title="Открыть" />
+</menu>
